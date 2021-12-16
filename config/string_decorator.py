@@ -1,3 +1,4 @@
+# generic __str__ method to print instance variables for a class. Should be default python behavior IMO
 def to_string(the_class):
     def __str__(self):
         class_name = type(self).__name__
